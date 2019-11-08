@@ -1,0 +1,12 @@
+.friend{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(30px, 1fr));
+    grid-column-gap: 20px;
+    padding-top: 20px;
+}
+
+.friend img {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+}
